@@ -18,7 +18,9 @@ int main(void)
 
 void reverse(char* str)
 {
-    str+=8;
+    char* front = str;
+    char* back = str + strlen(str) - 1;
     *str = 'x';
     printf("ptr: %p string: %s char[0]: %c\n", &str, str, *str);
+    printf("first: %c last: %c \n", *front, *back);
 }
