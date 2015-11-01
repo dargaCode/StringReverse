@@ -18,9 +18,14 @@ int main(void)
 
 void reverse(char* str)
 {
-    char* front = str;
-    char* back = str + strlen(str) - 1;
+    int len = strlen(str);
+    for (int i = 0, j = i + len - 1; i < j; i++, j--)
+    {
+
+        printf("i: %i str[i]: %c j: %i str[j]: %c \n",
+            i, *(str+i), j, *(str+j));
+    }
+
     *str = 'x';
     printf("ptr: %p string: %s char[0]: %c\n", &str, str, *str);
-    printf("first: %c last: %c \n", *front, *back);
 }
