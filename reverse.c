@@ -8,7 +8,7 @@ int main(void)
 {
     printf("\nEnter string to reverse: ");
     char* input = GetString();
-    printf("\n\nReversing string \"%s\"...\n", input);
+    printf("\nReversing string \"%s\"...\n", input);
     reverse(input);
     printf(" Reversed string: %s \n\n", input);
 }
