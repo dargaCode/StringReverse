@@ -9,4 +9,4 @@ After a couple of very frustrating hours, I learned that hardcoded strings live 
 
 [edit: turns out they're only hardcoded when defined as pointers, not arrays]
 
-<img src ="http://36.media.tumblr.com/218eb3927737080cac65c45baea67256/tumblr_inline_nx4leeKkrP1tvc5hi_1280.png" width=“160" height="160">
+<img src ="http://36.media.tumblr.com/218eb3927737080cac65c45baea67256/tumblr_inline_nx4leeKkrP1tvc5hi_1280.png" width="550">
